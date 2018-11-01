@@ -16,8 +16,6 @@ Michael Baird has a talk on "Prong base studies in a Slice based world": docdb-3
 Sebastian has also added a simple CAFAna example.
 
 
-
-
 ## Meeting with Matt and Sebastian October 12, 2018
 
 There were some problems in CAFana due to changes in the Develop release - going back to a previously frozen version worked to resolved.
@@ -34,8 +32,8 @@ ND group uses:
 - ProngCVN for pions or other particles
 
 Questions to research:
-- When do muons and pions become more indistinguishable? Selecet events having 1 muon and 1 pion (true) , where we have exactly two prongs (a true muon and a true pion). Then plot the Prong length, ND MuonID, the ProngCVN MuonID and ProngCVN PionID for all those. Pions and protons should have a different ditribution here. Where to put the cut such that we don't touch the protons.
-- How short can we make that prong lenght cut before we start rejecting other particles? Prong length is very transpatent and orhtogonal to other vars that may ve correlated. So, how low can we get this cut?
+- When do muons and pions become more indistinguishable? Select events having 1 muon and 1 pion (true) , where we have exactly two prongs (a true muon and a true pion). Then plot the Prong length, ND MuonID, the ProngCVN MuonID and ProngCVN PionID for all those. Pions and protons should have a different ditribution here. Where to put the cut such that we don't touch the protons.
+- How short can we make that prong lenght cut before we start rejecting other particles? Prong length is very transpatent and orthogonal to other vars that may be correlated. So, how low can we get this cut?
 
 Tasks to try:
 1) Investigate a prong length cuts (break signal and background distriutions by truth particles). Focus on Pions vs Protons, and Pions vs NeutronActivity

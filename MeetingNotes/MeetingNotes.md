@@ -1,6 +1,23 @@
 # Meeting Notes
 
 
+## Meeting with Matt and Sebastian Nov 1, 2018
+
+Still using an older version works for CAF problems. Sebastian spoke with Miranda (will put notes in here shortly)
+Miranda uses unstandard code, written by her and Jeremy - can spiral away from the base version of CAFAna
+Sebastian would prefer to stick with the standard release
+
+Michael Baird has a talk on "Prong base studies in a Slice based world": docdb-31906
+* Some capabilities already exist, but Sebastian will have to make his code work with something closer to the header.
+* These new functions do not require new CAF files to be made
+* Machinery still makes spectra once per slice. To do once per prong takes more hacking - that's what Miranda and Jeremy were using.
+
+
+Sebastian has also added a simple CAFAna example.
+
+
+
+
 ## Meeting with Matt and Sebastian October 12, 2018
 
 There were some problems in CAFana due to changes in the Develop release - going back to a previously frozen version worked to resolved.

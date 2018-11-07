@@ -3,7 +3,7 @@
 
 ## Meeting with Matt and Sebastian Nov 1, 2018
 
-Still using an older version works for CAF problems. Sebastian spoke with Miranda (notes [here](./OnMiranda'sCode))
+Still using an older version works for CAF problems. Sebastian spoke with Miranda (notes [here](./OnMiranda'sCode.md))
 Miranda uses unstandard code, written by her and Jeremy - can spiral away from the base version of CAFAna
 Sebastian would prefer to stick with the standard release
 

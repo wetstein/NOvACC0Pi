@@ -25,7 +25,8 @@ two prongs, where one is definitely a muon at the truth-level and the other is d
 
 The idea is to identify a first set of cuts that provides maximum purity without reducing efficiency. 
 
-Side note: Sebastian has also added a simple CAFAna example for Matt's reference/learning.
+Side note: Sebastian has also added a [simple CAFAna example](../CAFAna/example/test.C
+) for Matt's reference/learning.
 
 
 ## Meeting with Matt and Sebastian October 12, 2018

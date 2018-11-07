@@ -12,8 +12,20 @@ Michael Baird has a talk on "Prong base studies in a Slice based world": [docdb-
 * These new functions do not require new CAF files to be made
 * Machinery still makes spectra once per slice. To do once per prong takes more hacking - that's what Miranda and Jeremy were using.
 
+After discussing the complexities of the issue, we decided that it would be best to work on using CAF in more standard ways while we pursue more prong-based functionality at a later time.
 
-Sebastian has also added a simple CAFAna example.
+Most immediately, we plan to move ahead with making some instant gratification plots using a sample of events with exactly 
+two prongs, where one is definitely a muon at the truth-level and the other is definitely a pion, and samples with exactly one muon prong and no pions at truth level. We would the make plots:
+1) Comparing track length distributions of the pion and muon prongs in the two-prong sample to the muon track in the single muon sample.
+2) Comparing muon id (CVN-prong) "  "  "
+3) Comparing muon id (ND-group) "  "  "
+4) Comparing pion id (CVN-prong) "  "  "
+5) Comparing proton id (CVN-prong) " " "
+6) Comparing EM id (CVN-prong) " " "
+
+The idea is to identify a first set of cuts that provides maximum purity without reducing efficiency. 
+
+Side note: Sebastian has also added a simple CAFAna example for Matt's reference/learning.
 
 
 ## Meeting with Matt and Sebastian October 12, 2018

@@ -2,7 +2,8 @@
 //
 //  CAFAna Simple example analysis
 //
-//  Run with cafe (CAF Executor)
+//  To run, copy anywhere within your area (along with the Rootheaders.h file) 
+//  and invoke cafe (CAF Executor), e.g.:
 //  $ cafe -ss -l 1 test.C
 //
 //  -ss   is for snapshot, for cafe to try to locate the requested datafiles
@@ -14,34 +15,42 @@
 ///////////////////////////////////////////////////////////////////////////////
 
 
-//More CAFAna includes...
+//CAFAna includes...
 #include "CAFAna/Core/Binning.h"
-#include "CAFAna/Cuts/Cuts.h"
-#include "CAFAna/Cuts/SpillCuts.h"
-#include "CAFAna/Vars/GenieWeights.h"
-#include "CAFAna/Vars/PPFXWeights.h"
 #include "CAFAna/Core/Spectrum.h"
 #include "CAFAna/Core/SpectrumLoader.h"
+#include "CAFAna/Core/Utilities.h"
+#include "CAFAna/Core/LoadFromFile.h"
+#include "CAFAna/Cuts/Cuts.h"
+#include "CAFAna/Cuts/SpillCuts.h"
+#include "CAFAna/Cuts/NumuCuts2018.h"
+#include "CAFAna/Vars/GenieWeights.h"
+#include "CAFAna/Vars/PPFXWeights.h"
 #include "CAFAna/Vars/HistAxes.h"
 #include "CAFAna/Vars/Vars.h"
 #include "CAFAna/Vars/NumuVars.h"
-#include "CAFAna/Cuts/NumuCuts2018.h"
 #include "CAFAna/Vars/WrongSignBDTVars.h"
 #include "CAFAna/Vars/CVNFinalStates.h"
 #include "CAFAna/Vars/PngCVNVars.h"
 #include "CAFAna/Vars/CVNProngVars.h"
 #include "CAFAna/Vars/BPFVars.h"
 #include "CAFAna/Vars/BPFEnergyVars.h"
-#include "Utilities/rootlogon.C"
 #include "CAFAna/Cuts/QuantileCuts.h"
+#include "Utilities/rootlogon.C"
+
+//Other common framework includes
+#include "StandardRecord/Proxy/SRProxy.h"
+#include "StandardRecord/SRFuzzyKProng.h"
+#include "StandardRecord/SRLorentzVector.h"
+
+//All possible ROOT headers... :P
+#include"RootHeaders.h"
 
 //Numu CC Inclusive headers
 #include "NDAna/numucc_inc/NumuCCIncBins.h"
 #include "NDAna/numucc_inc/NumuCCIncCuts.h"
 #include "NDAna/numucc_inc/NumuCCIncVars.h"
 
-//The Leo's header
-#include "./LeoDefs.h"
 
 using namespace ana;
 

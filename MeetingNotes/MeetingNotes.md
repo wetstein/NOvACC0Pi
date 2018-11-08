@@ -1,6 +1,19 @@
 # Meeting Notes
 
 
+## Meeting with Matt and Sebastian Nov 8th, 2018
+
+Tasks:
+[] Rerun analysis without Muon presselection cut. See how many true CC0Pi were rejected
+[] Look to see if any NC events with pions passed the cuts (i.e. the purity)
+[] Make a slide deck with plots from today
+
+Observations:
+- Pion ID: Good for rejecting muons, not great for selecting pions
+- Muon ID: Good for rejecting pions and selecting muons. 
+- Prong Length: Above ~4m, pretty sure it's a muon. Below 4m, could be either...
+
+
 ## Meeting with Matt and Sebastian Nov 1, 2018
 
 Still using an older version works for CAF problems. Sebastian spoke with Miranda (notes [here](./OnMiranda'sCode.md))

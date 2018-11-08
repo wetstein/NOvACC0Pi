@@ -4,9 +4,9 @@
 ## Meeting with Matt and Sebastian Nov 8th, 2018
 
 Tasks:
-[] Rerun analysis without Muon presselection cut. See how many true CC0Pi were rejected
-[] Look to see if any NC events with pions passed the cuts (i.e. the purity)
-[] Make a slide deck with plots from today
+1) Rerun analysis without Muon presselection cut. See how many true CC0Pi were rejected
+2) Look to see if any NC events with pions passed the cuts (i.e. the purity)
+3) Make a slide deck with plots from today
 
 Observations:
 - Pion ID: Good for rejecting muons, not great for selecting pions

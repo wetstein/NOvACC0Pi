@@ -1,0 +1,202 @@
+\documentclass[11pt]{article}
+\usepackage{epsfig}
+\usepackage[english]{babel}
+\usepackage[utf8]{inputenc}
+\usepackage{siunitx}
+\usepackage{amsmath}
+\usepackage{graphicx, fullpage}
+\usepackage[colorinlistoftodos]{todonotes}
+\usepackage{xspace}
+\usepackage{hyperref}
+\usepackage{lineno}
+\usepackage{float}
+\newcommand{\numu}{$\nu_\mu$\xspace}
+\newcommand{\plus}{\ensuremath{\texttt{+}}}
+\newcommand{\CCpionreaction}{$\ensuremath{\nu_{\mu}}~\plus~N~\rightarrow \mu^{\mp} \plus~N~\plus~\pi^\pm + X ~$}
+\newcommand{\uscore}{\ensuremath{\texttt{$_$}}}
+\newcommand{\CCpion}{\ensuremath{\pi^\pm}}
+\newcommand{\numubar}{$\bar{\nu}_\mu$\xspace}
+\newcommand{\nue}{$\nu_e$\xspace}
+\newcommand{\nuebar}{$\bar{\nu}_e$\xspace}
+\usepackage{multirow}
+\usepackage{color}
+\definecolor{my}{RGB}{220,230,140} 
+\title{Sebastian's \numu CC 0$\pi$ Analysis}% Force line breaks with \\
+
+\author{Sebastian Sanchez-Falero}
+
+\date{\today}% It is always \today, today,
+             %  but any date may be explicitly specified
+
+\begin{document}
+%\setpagewiselinenumbers
+%\modulolinenumbers[1]
+\linenumbers
+\maketitle
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+\begin{abstract}
+X is interesting.  We have measured X.  The results are Y.
+\end{abstract}
+
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+\section{Introduction}
+
+
+
+
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+\section{Datasets}
+
+
+
+
+
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+\section{Preliminary Strategy}
+We would start by making the following cuts:
+
+\begin{enumerate}
+   	\item Require a muon: Has a prong with muonID higher than \textit{value}
+       \item Exclude multiple muons/pion-like tracks: reject events with other prongs longer than \textit{value}
+       \item Exclude showers: reject events with high EM Id score
+\end{enumerate}
+
+%%ReCo NuE for events passing cuts, broken in signal/BKG 
+%%Fractions os S/B for signal in a table, for different cut values. Could use TMVA
+
+%%To get confidence, vary cuts, if overall shape varies the same in data/MC that gives confidence in the MC
+
+%%Overall goal: Do signal optimization minimizing not S/(S+B) but systematic uncertainty.
+
+%%Usually, statistics are assessed by tuning MC in a multiverse 
+
+%%NOvA systematics: the xsection is pne the biggest systematics is the oscillatio analysis. Things like calibration
+
+%%Prong Multiplicity for true signal /  BKG events Do ur cut affect the prong multiplicity? Are we getting rid of events that could be signal
+
+%%Start wirth MC. Plot the total reco nu energy. then look for which events have true pions
+%%Apply all the cuts and figure out which remaining events have pions
+%%Total calo energy
+%%PLot prong multiplicity for those cuts 
+\noindent Of the remaining sample, we will classify by Number of Additional Prongs and make Data/MC comparisons of:
+\begin{itemize}
+	\item Prong multiplicity
+    \item Prong Energies
+    \item ???
+\end{itemize}
+
+\noindent In addition we will study how the variations in the cut values affect the purity and efficiency of selecting non-muon prongs
+
+
+At each step, we need to understand what the excluded/passing events really constitute $\Rightarrow$ study efficiencies of each cut, in muon and other related particle variables
+\begin{enumerate}
+	\item Muon Prong and ID efficiencies and purities: Should be very well studied for the oscillation analyses
+    \item Pion Prong and ID efficiencies and purities: Have began studies on this direction
+\end{enumerate}
+
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+\section{Event Selection}
+
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+\section{Systematic Uncertainties}
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+\section{Resolution and Binning}
+
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+\section{Results, Comparisons and World Domination}
+
+
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+\newpage
+\section{Scratch*}
+\begin{itemize}
+	
+    
+    \item Signal definition: 
+    	\begin{itemize}
+    		\item Experimentally observable, as opposed to theoretical cross-section (QE) $\rightarrow$ less model-dependent
+           	\item Can do comparisons to pure QE hypothesis to study nuclear effects
+            \item Muon and not-pion are required. Defined above  thresholds:
+    			\begin{itemize}
+    				\item Reco eff (making a prong/track)
+                    \item PID eff
+    			\end{itemize}
+                Study these efficiencies with montecarlo, in different muon and pion variables. Set thresholds in the plateau region, safely away from rising edge
+            
+    	\end{itemize}
+    
+    
+    \item Reco and PID 
+    	\begin{itemize}
+    		\item p,$\mu$, $\pi$ can look all the same, for suitable energies
+    		\item Useful tools:
+    			\begin{itemize}
+    				\item ProngCVN
+                    \item dE/dx
+                    \item Michel electrons
+                    \item Annihilation photons
+                    \item Displaced vertices
+                    \item Dimuons
+    			\end{itemize}
+             \item Can develop own tools for RHC, use neutron studies
+        \end{itemize}
+	
+    \item Preselection
+    
+    
+    \item Selection
+    	\begin{enumerate}
+    		\item Find a muon: prong with muon ID $>$ sth
+            \item Find a second prong. 
+    	\end{enumerate}
+    
+    
+    \item Possible Deliverables
+    	\begin{itemize}
+    		\item Single differential cross section in muon/proton variables 
+    		\item Double differential cross section in muon/proton variables
+            \item Hammer events
+            \item FHC/RHC ratio? (long term)
+	\end{itemize}
+    
+\end{itemize}
+
+
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+\section{TODO}
+\begin{itemize}
+	\item Document reading
+    \begin{itemize}
+   		\item NOvA Charged Pion \cite{ccpiArisDPFtalk} \cite{ccpiArisDPFblessingpack}, \cite{ccpiArisNDTalk1}, \cite{ccpiArisNDTalk2}
+        \item NOvA Proton ID \cite{protonIDMerritt}
+        \item MINERvA Multinucleon effects \cite{mnvWCRodriguesMultinucleon}, \cite{Rodrigues:2015hik}, 
+        \item MINERvA Antineutrino cross sections \cite{Patrick:2018gvi} 
+    \end{itemize}
+    
+
+\end{itemize}
+
+
+
+
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+% Bibliography
+%\bibliographystyle{unsrt}
+\newpage
+\bibliographystyle{unsrtnat}
+\bibliography{bibl}
+
+\end{document}
+%
+% ****** End of file apssamp.tex ******

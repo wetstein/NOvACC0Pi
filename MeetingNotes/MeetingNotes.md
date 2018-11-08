@@ -7,6 +7,7 @@ Tasks:
 1) Rerun analysis without Muon presselection cut. See how many true CC0Pi were rejected
 2) Look to see if any NC events with pions passed the cuts (i.e. the purity)
 3) Make a slide deck with plots from today
+4) Make variables for events with 1Mu1Pr, to compare with 1Mu1Pi
 
 Observations:
 - Pion ID: Good for rejecting muons, not great for selecting pions

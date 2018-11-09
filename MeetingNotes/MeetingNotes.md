@@ -3,7 +3,7 @@
 
 ## Meeting with Matt and Sebastian Nov 8th, 2018
 
-Matt created a new [overleaf document](https://www.overleaf.com/6747429828nrqyjkkgzdzb) linked to this github repo to have everythign available in a single place. The references .bib file is [here](/NOvACC0Pi/WorkingPaper/bibl.bib) and compiles to a pdf with clickable links overleaf
+Matt created a new [overleaf document](https://www.overleaf.com/6747429828nrqyjkkgzdzb) linked to this github repo to have everythign available in a single place. The references .bib file is [here](NOvACC0Pi/WorkingPaper/bibl.bib) and compiles to a pdf with clickable links overleaf
 
 Tasks:
 1) Rerun analysis without Muon presselection cut. See how many true CC0Pi were rejected

@@ -6,12 +6,12 @@ We discussed the two plots Sebastian had made of sample compisition.
 
 The graphs start out with the effects of the preselection cut. Then, everything above assumes that the preselection has been made. The other cuts are (from bottom to top):
 
-preselection + 1 reco prong + any other true stuff that didn't make a prong
-preselection + 1 reco prong + 1 true pion + any other true stuff that didn't make a prong
-preselection + 1 reco prong + 1 true proton + any other true stuff that didn't make a prong
-preselection + 2 reco prongs + any other true stuff that didn't make a prong
-preselection + 2 reco prongs + 1 true pion + any other true stuff that didn't make a prong
-preselection + 2 reco prongs + 1 true proton + any other true stuff that didn't make a prong
+*preselection + 1 reco prong + any other true stuff that didn't make a prong
+*preselection + 1 reco prong + 1 true pion + any other true stuff that didn't make a prong
+*preselection + 1 reco prong + 1 true proton + any other true stuff that didn't make a prong
+*preselection + 2 reco prongs + any other true stuff that didn't make a prong
+*preselection + 2 reco prongs + 1 true pion + any other true stuff that didn't make a prong
+*preselection + 2 reco prongs + 1 true proton + any other true stuff that didn't make a prong
 
 
 ## Meeting with Matt and Sebastian Nov 8th, 2018

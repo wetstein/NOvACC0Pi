@@ -12,7 +12,10 @@ The graphs start out with the effects of the preselection cut. Then, everything 
 * preselection + 2 reco prongs + any other true stuff that didn't make a prong
 * preselection + 2 reco prongs + 1 true pion + any other true stuff that didn't make a prong
 * preselection + 2 reco prongs + 1 true proton + any other true stuff that didn't make a prong
-
+* preselection + 3 reco prongs + any other true stuff that didn't make a prong
+* preselection + 3 reco prongs + 1 true proton + 1 true pion + any other true stuff that didn't make a prong
+* preselection + 4 or more reco prongs + any other true stuff that didn't make a prong
+* preselection + all of these selection + 1 good muon ID
 
 ## Meeting with Matt and Sebastian Nov 8th, 2018
 

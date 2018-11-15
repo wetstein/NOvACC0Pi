@@ -17,6 +17,23 @@ The graphs start out with the effects of the preselection cut. Then, everything 
 * preselection + 4 or more reco prongs + any other true stuff that didn't make a prong
 * preselection + all of these selection + 1 good muon ID
 
+Observations:
+* preselection + 1 reco prong + 1 true proton + 1 good muon ID seems to give the least contamination of nonCC or even nonCC0Pi events
+* preselection + 2 reco prongs + 1 true proton + 1 good muon ID, unexpectedly seems to have more contamination.
+
+
+We should focus more on observables like prong length and prongCVN scores, and avoid mixing true and reco information in the selection cuts. Even before worrying about efficiencies and purities, we'd like to see the distributions of prong variables (length, CVN scores, number) for different true samples and THEN find cuts that optimize efficiency/purity.
+
+Tasks to do:
+* Make plots clearer (location of zero in horizontal axis, transparency, grid)
+* Remove selections that mix reco and true information, e.g. MuID and one true pronton
+* Do the prong variables (number, length, CVN scores) plots on the following TRUE samples
+..-CCOpi & nonCC0Pi
+..-!1Mu!1Pr (the exclamation !n meaining exactly n )
+..-!1Mu!1Pi
+..-!1Mu!1Pr!1Pi
+
+
 ## Meeting with Matt and Sebastian Nov 8th, 2018
 
 Matt created a new [overleaf document](https://www.overleaf.com/6747429828nrqyjkkgzdzb) linked to this github repo to have everythign available in a single place. The references .bib file is [here](../WorkingPaper/bibl.bib) and compiles to a pdf with clickable links overleaf

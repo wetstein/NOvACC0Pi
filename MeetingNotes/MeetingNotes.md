@@ -28,10 +28,10 @@ Tasks to do:
 * Make plots clearer (location of zero in horizontal axis, transparency, grid)
 * Remove selections that mix reco and true information, e.g. MuID and one true pronton
 * Do the prong variables (number, length, CVN scores) plots on the following TRUE samples
-  -CCOpi & nonCC0Pi
-  -!1Mu!1Pr (the exclamation !n meaining exactly n )
-  -!1Mu!1Pi
-  -!1Mu!1Pr!1Pi
+    -CCOpi & nonCC0Pi
+    -!1Mu!1Pr (the exclamation !n meaining exactly n )
+    -!1Mu!1Pi
+    -!1Mu!1Pr!1Pi
 
 
 ## Meeting with Matt and Sebastian Nov 8th, 2018

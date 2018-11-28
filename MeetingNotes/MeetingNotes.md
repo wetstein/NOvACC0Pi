@@ -32,6 +32,8 @@ Tasks to do:
     -!1Mu!1Pr (the exclamation !n meaining exactly n )
     -!1Mu!1Pi
     -!1Mu!1Pr!1Pi
+   
+* Check what are exactly primaries in NOvA (nu->prim); GENIE makes a distinguishes between particles coming from hard scattering, paticles after FSI and even decays some short lived particles. How is this set up in NOvA?
 
 
 ## Meeting with Matt and Sebastian Nov 8th, 2018

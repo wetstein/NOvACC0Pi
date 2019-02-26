@@ -1,5 +1,20 @@
 # Meeting Notes
 
+## Meeting with Matt and Sebastian Feb 26th, 2018
+
+Brief talk around the pion efficiency
+
+Tasks to do:
+- Add angle w.r.t. detector axis
+- Change Pion Momentum -> Kinetic Energy. This var is closer to what we actually measure (?)
+- Complete analogous proton efficiency study
+- Assemble structure of the Latex document
+    - Do a section of selection cuts
+
+Questions for the scrum meeting:
+- Cutoff on the pion kinetic energy? What does this exactly mean?
+
+
 ## Meeting with Matt and Sebastian Nov 15th, 2018
 
 We discussed the two plots Sebastian had made of sample compisition.

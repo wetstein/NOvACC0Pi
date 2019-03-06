@@ -1,6 +1,12 @@
 # Meeting Notes
 
 ## Meeting with Matt and Sebastian Feb 26th, 2018
+- Quit 2 prong requirement
+- Keep 1 True Pion
+- Keep 1 True proton for now
+- Next iteration: Angular deviation of proton from CCQE angle from the muon momentum
+
+## Meeting with Matt and Sebastian Feb 26th, 2018
 
 Brief talk around the pion efficiency
 

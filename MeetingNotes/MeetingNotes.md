@@ -1,5 +1,15 @@
 # Meeting Notes
 
+
+## Meeting with Matt and Sebastian Feb 26th, 2018
+- "RecoPions" might be confusing. PionProng? BacktracedPion? Matched prongs 
+- Change plots label to "Opening angle"
+- Proton eff drops with increasing proton KE, might be due to more inelastic processes happening.
+- Could be interesting to study multiprongs from pion capture in flight (also for protons, but they'd yield shorter tracks; neutrons would yield detached multiprongs, so more difficult). This could provide a fairly pure selection on data to do MC tuning.
+
+Then we had the scrum meeting with Matt and Jon:
+- (To be filled soon)
+
 ## Meeting with Matt and Sebastian Feb 26th, 2018
 - Quit 2 prong requirement
 - Keep 1 True Pion

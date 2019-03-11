@@ -1,7 +1,7 @@
 # Meeting Notes
 
 
-## Meeting with Matt and Sebastian Feb 26th, 2018
+## Meeting with Matt and Sebastian March 6th, 2018
 - "RecoPions" might be confusing. PionProng? BacktracedPion? Matched prongs 
 - Change plots label to "Opening angle"
 - Proton eff drops with increasing proton KE, might be due to more inelastic processes happening.
@@ -10,7 +10,7 @@
 Then we had the scrum meeting with Matt and Jon:
 - (To be filled soon)
 
-## Meeting with Matt and Sebastian Feb 26th, 2018
+## Meeting with Matt and Sebastian March 5th, 2018
 - Quit 2 prong requirement
 - Keep 1 True Pion
 - Keep 1 True proton for now

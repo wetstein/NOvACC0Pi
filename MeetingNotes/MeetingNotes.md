@@ -1,7 +1,7 @@
 # Meeting Notes
 
 
-## Meeting with Matt and Sebastian March 6th, 2018
+## Meeting with Matt and Sebastian + ND Scrum meeting March 6th, 2018
 - "RecoPions" might be confusing. PionProng? BacktracedPion? Matched prongs 
 - Change plots label to "Opening angle"
 - Proton eff drops with increasing proton KE, might be due to more inelastic processes happening.

@@ -8,7 +8,10 @@
 - Could be interesting to study multiprongs from pion capture in flight (also for protons, but they'd yield shorter tracks; neutrons would yield detached multiprongs, so more difficult). This could provide a fairly pure selection on data to do MC tuning.
 
 Then we had the scrum meeting with Matt and Jon:
-- (To be filled soon)
+- The truth-level NumuCC requirement is ok in all efficiencies because we are finding the *signal* efficiency. We'll treat the backgrounds separately later in the study.
+- Current stage: finding a Pion KE threshold for a reasonably flat efficiency in prong making
+- Next stage: finding a pion KE threshold for a reasonably flat efficiency in pion prong CVN identification / rejection
+- Regarding trasverse particles:NOvA reco does 2d prongs too (those having hits in only one of the views). We might want to study those too
 
 ## Meeting with Matt and Sebastian March 5th, 2018
 - Quit 2 prong requirement

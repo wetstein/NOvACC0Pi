@@ -1,5 +1,15 @@
 # Meeting Notes
 
+## Scrum Meeting with Matt, Matthew and Sebastian. March 27th, 2018
+- We'll focus on the efficiencies of a true pion making any number of prongs (i.e. 1-0ProngMatch efficiencies)
+- Pion Prong Making Eff as function of PionKE plateaus to ~50% at 500 MeV. We want to understand where this ceiling comes from.
+- Angular effects (lower sensibility to transverse particles) seem not to play the leading role, but will investigate:
+    - Recalculate angular eff in bins of pion KE and specially for PionKE > 500 MeV.
+- Investigate the destinies of pions: break the Pion KE eff in a stack of interactions (secondary). Plot eff for pions that didn't have secondary interactions. More energetic pions could be rescattering early enough that they don't make a prong. Ask Aris how to query this information. We wouldn't like to trust Geant's pion propagation...
+- Michel electron rejection could help a little our efficiency. Ask the pion xsection analyzers to see what's available.
+
+
+
 ## Meeting with Matt and Sebastian March 26th, 2018
 - Review of the status of the analysis
 - 4 Efficiencies, from true NuMuCC events

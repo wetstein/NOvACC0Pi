@@ -1,5 +1,21 @@
 # Meeting Notes
 
+## Meeting with Matt and Sebastian March 26th, 2018
+- Review of the status of the analysis
+- 4 Efficiencies, from true NuMuCC events
+    - True Pion makes a 2D Prong
+    - True Pion makes a 3D Prong        &&   Has CVN PionID greater than other IDs
+    - True Pion makes a 2D Prong        &&   Has CVN PionID greater than other IDs (check if we have CVN Ids for 2D prongs at all)
+    - True Pion makes a 2D or 3D Prong  &&   Has CVN PionID greater than other IDs
+    
+- 2 Plots, from true NuMuCC events
+    - Stack histogram: NuMuCC events, prong PionID by truth level particle
+    - PionID for the prongs passing our CVN pionID criteria (having the pionID score higher than any other score)
+
+Notes:
+- Pions leaving long tracks should be partially removed by the CC selection (two long tracks, except if muon is short)
+- Pions leaving short tracks could be troublesome
+
 
 ## Meeting with Matt and Sebastian + ND Scrum meeting March 6th, 2018
 - "RecoPions" might be confusing. PionProng? BacktracedPion? Matched prongs 

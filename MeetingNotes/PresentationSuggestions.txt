@@ -1,18 +1,20 @@
-Title: "(Status of the) Measurement of the Charged Current Zero Pion cros section at the NOvA Near Detector"
+Title: "(Status of the) Charged Current Zero Pion cros section Measurement in the NOvA Near Detector"
 Title slide: Put date, event name, event location. Name: SFS and MW on behalf of the Near Detector Physics group 
 
 Intro: 
- - NuMI enegry spectrum, overlaped with theoretical xsection measurements, to justify the relevance of measuring this in NOvA
+ - "Motivation": Important for oscillation experiments: energy and xsec uncertainties, geometrical acceptance 
+ - NuMI and DUNE enegry spectrum, overlaped with theoretical xsection measurements, to justify the relevance of measuring this in NOvA
  - Why only ND?
+ - Measurement Goals: the xsec and dxsec
  
  Analysis overview
+ - Show an event display and describe the geometry of the experiment (where the beam comes from, what it's made of) and describe preselection cuts (muon, hadronic containment, fiducial, )
  - Signal definition: E.g. Ntracks, nprongs, PionKE > 350 MeV
  - Maybe add some quick jargon defintion (e.g. track, prongs if utside NOvA)
  - Statisitics: POT, # events
  - Signal, Background, Efficiency, Purity flow in table (but prepare a graph too, like Ozgur's)
  - Event display? But choose a VERY NICE ONE. Or put two, one very clear and one more challenging
- 
-
+ - Energy reconstruction: For all relevant particles (muon?, proton?)
 
 BDT or CVN or this ethereal stuff description:
 - Model dependency: Be VERY Careful about claiming this... 
@@ -20,5 +22,21 @@ BDT or CVN or this ethereal stuff description:
 - Describe a little the variables used. Use a graph or so.
 - Have diagnostics of the CVN or BDT at the backup, to reassure people that we are not doing crazy things. 
   - Consult with experts, be careful not to expose to a whrilpool of questions.
+- Why so few pions? Show the pion reconstruction efficiency (MINERvA faces the same problems...).
+
+Cross section calculation:
+- Put the cross section AND uncertainty reconstruction equation
+
+Sytsematics:
+- Random -> Randomized (regarding GENIE's xsection tuning params)
+- Flux, target, 
+
+Background constraining:
+- Important, but I have no idea as of today...
   
-  
+Unfolding and Efficiency correction
+- Best done in as many involved vars as possible (KEs, angles)
+
+Fake Data analysis
+- Might do some of the parameter teasing to blind ourselves... This is before unboxing
+

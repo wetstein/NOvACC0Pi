@@ -1,5 +1,11 @@
 # Meeting Notes
 
+## Meeting with Matt and Sebastian April 9th, 2018
+- Ping Aris and/or other people @ pion group for pion death mode info in CAF ttrees
+- Our combined 2D and 3D prongs is ~70%, which is reassuring. The remaining 30% could be fundamentally undetectable pions
+- Do the same 2D/3D study for protons
+- For pions making 2DProngs, plot HitsPerProng (above some threshold we might get a very good dE/dx for rejecting them)
+
 ## Scrum Meeting with Matt, Matthew and Sebastian. March 27th, 2018
 - We'll focus on the efficiencies of a true pion making any number of prongs (i.e. 1-0ProngMatch efficiencies)
 - Pion Prong Making Eff as function of PionKE plateaus to ~50% at 500 MeV. We want to understand where this ceiling comes from.

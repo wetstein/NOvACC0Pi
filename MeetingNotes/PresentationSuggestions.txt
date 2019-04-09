@@ -1,0 +1,24 @@
+Title: "(Status of the) Measurement of the Charged Current Zero Pion cros section at the NOvA Near Detector"
+Title slide: Put date, event name, event location. Name: SFS and MW on behalf of the Near Detector Physics group 
+
+Intro: 
+ - NuMI enegry spectrum, overlaped with theoretical xsection measurements, to justify the relevance of measuring this in NOvA
+ - Why only ND?
+ 
+ Analysis overview
+ - Signal definition: E.g. Ntracks, nprongs, PionKE > 350 MeV
+ - Maybe add some quick jargon defintion (e.g. track, prongs if utside NOvA)
+ - Statisitics: POT, # events
+ - Signal, Background, Efficiency, Purity flow in table (but prepare a graph too, like Ozgur's)
+ - Event display? But choose a VERY NICE ONE. Or put two, one very clear and one more challenging
+ 
+
+
+BDT or CVN or this ethereal stuff description:
+- Model dependency: Be VERY Careful about claiming this... 
+- MOST geometric quantities (e.g. lengths) are VERY Model dependent. What about angles???
+- Describe a little the variables used. Use a graph or so.
+- Have diagnostics of the CVN or BDT at the backup, to reassure people that we are not doing crazy things. 
+  - Consult with experts, be careful not to expose to a whrilpool of questions.
+  
+  

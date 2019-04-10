@@ -1,5 +1,26 @@
 # Meeting Notes
 
+## Meeting with Matt, Matthew and Sebastian April 10th, 2018
+- 3D Prong efficiencies: 
+    - Look what CVN says for prongs not passing the SimpleCVN criterion (guess: protons. If muons, can first tag the muon and not exclude them)
+    - Opening angle: look at below plateau pions
+    - Simple CVN has ~60% eff in tagging pions in the plateau region
+    - Drop in statistics of pion Polar Angle above 90° (transverse) is strange. Probably this is a kinematical effect (e.g. pion emission of a boosted nucleon resonance not isotropic in the detector frame). We should calculate this (at least back of the envelope...)
+
+- Joint 2D and 3D prong efficiencies:
+    - ~70% of single-true pion events do make some kind of prong, which is reassuring. Remaining 30% might credibly be irreducibly invisible pions (e.g. too short to make a prong, either low energy being captured or high energy somehow scattering)
+    - No CVN for 2DProngs
+    - Need to look at quality estimators for 2DProngs: e.g. NHits. Can we make energy and dE/dx estimators?
+    - Also relevant for other transverse particles, for which 2D prongs are more likely.
+
+Recall that the final selection criteria WILL tret 2D and 3D prongs separately. The joint plots are only to show how far we can aim for overall efficiency
+
+Next Steps: 
+- Go to ART and look for:
+    - 2D prongs quality vars (e.g. NHits)
+    - True pions death modes
+- Present results at next ND meeting on Tuesday
+
 ## Meeting with Matt and Sebastian April 9th, 2018
 - Ping Aris and/or other people @ pion group for pion death mode info in CAF ttrees
 - Our combined 2D and 3D prongs is ~70%, which is reassuring. The remaining 30% could be fundamentally undetectable pions

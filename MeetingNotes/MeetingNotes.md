@@ -17,7 +17,12 @@ Sebastian presented the pion prong reco status (see slides in [docdb](https://no
 Open questions:
 - Current analyses are for Exactly One True Pion escaping the nucleus.
 - Currently repeating the analysis for exactly 2 and then any number of true pions escaping the nucleus
-- Guess: pions escaping the nucleus =/= true pions that the bactracker can point to. Former come from GENIE, while the latter are the result of some GEANT4 propagation/rescattering. Should we care about distinguishing this two types? I.e. when we claim "CC0Pi", does this only mean no pions escaping the nucleus? Can we even distinguish those?
+- Guess: pions escaping the nucleus =/= true pions that the bactracker can point to. Former come from GENIE, while the latter are the result of some GEANT4 propagation/rescattering. 
+A piece of evidence: These two selections result to be different:
+ `"HasProngsFromTruePions" = kPreselPionEff                   && kHasProngsFromTruePions
+  "HasGoodProngMatchPions" = kPreselPionEff && kHasTruePions  && kHasProngsFromTruePions`
+  , where `kPreselPionEff` is the numuCC Inclusive preselection cuts + truth level numuCC.
+Should we care about distinguishing this two types? I.e. when we claim "CC0Pi", does this only mean no pions escaping the nucleus? Can we even distinguish those?
 
 
 ## Meeting with Matt, Matthew and Sebastian April 10th, 2018

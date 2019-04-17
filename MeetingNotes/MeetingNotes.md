@@ -1,5 +1,25 @@
 # Meeting Notes
 
+## Weekly ND Meeting April 16th, 2018 and related comments
+Sebastian presented the pion prong reco status (see slides in [docdb](https://nova-docdb.fnal.gov/cgi-bin/private/ShowDocument?docid=37161)) and also reported to the ISU-NOvA meeting with Mayly and Karl.
+- With 3D Prongs we have ~50% prong making efficiency, relatiely flat for PionKE > 0.5 GeV
+- With 2D Prongs we have ~45% prong making efficiency, relatiely flat for PionKE > 0.2 GeV
+- Combining both, we reach a max of ~70% prong making efficiency.
+- Efficieny is also reasonably flat in pion polar angle when we combine 3D prongs (have a dip for transverse particles) and 2D prongs (have a spike for transverse particles).
+- Now going to ART to study what happens to the ~30% pions that don't make any type of prong
+    - Matt has an ART tool that can help that. Current version is in `/nova/app/users/wetstein/mydevs/dev2/NuMuNeutronAna`, soon to be uploaded to the public svn repository. 
+        - Tree parsers scripts `NeutTree.{h,C}` are available in the same folder
+        - An example ttree for the entire RHC MC can be found in `/nova/ana/users/etiras/NuMuNeut/GridJobs/numuneut_nd_genie_rhc_v08_AllPeriods_Feb4.root`
+    - Mayly suggests some kind of kinematical arguments could be used to try to identify events where a pion doesn't make a any prong.
+    - Will be looking at 2D Prong quality from ART too.
+- Mat proposed to organize a 1Pi 0Pi cross meeting, to share ideas on pion ID. Could use some type of CVN or dE/dX if prongs are long enough.
+
+Open questions:
+- Current analyses are for Exactly One True Pion escaping the nucleus.
+- Currently repeating the analysis for exactly 2 and then any number of true pions escaping the nucleus
+- Guess: pions escaping the nucleus =/= true pions that the bactracker can point to. Former come from GENIE, while the latter are the result of some GEANT4 propagation/rescattering. Should we care about distinguishing this two types? I.e. when we claim "CC0Pi", does this only mean no pions escaping the nucleus? Can we even distinguish those?
+
+
 ## Meeting with Matt, Matthew and Sebastian April 10th, 2018
 - 3D Prong efficiencies: 
     - Look what CVN says for prongs not passing the SimpleCVN criterion (guess: protons. If muons, can first tag the muon and not exclude them)

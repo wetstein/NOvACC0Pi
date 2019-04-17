@@ -24,7 +24,7 @@ A piece of evidence: These two selections result to be different:
  "HasGoodProngMatchPions" = kPreselPionEff && kHasTruePions  && kHasProngsFromTruePions
  ```
   , where `kPreselPionEff` is the numuCC Inclusive preselection cuts + truth level numuCC.
-Should we care about distinguishing this two types? I.e. when we claim "CC0Pi", does this only mean no pions escaping the nucleus? Can we even distinguish those?
+Should we care about distinguishing this two types? I.e. when we claim "CC0Pi", does this only mean no pions escaping the nucleus? Can we even distinguish those? Might want to reconsider the pion efficiency analysis to demand GEANT4's prongs-bactracking to pions in lieu of GENIE's pions escaping the nucleus.
 
 
 ## Meeting with Matt, Matthew and Sebastian April 10th, 2018

@@ -1,5 +1,27 @@
 # Meeting Notes
 
+## Meeting with Matt and Sebastian, April 19th, 2019
+- We discussed the ubiquity of the Second Law of Thermodynamics and concluded that we are the swirls in a cosmic café au lait still in preparation. Also, Matt made "I'll put butter on my bagel" and "I'll pour cream on my coffee" oficially new everyday expressions.
+- Discussed the difference between GENIE's pions-escaping-the-nucleus and GEANT4-propagated pions, which are the ones that the backtracker can point to. In order to have clear-cut defined efficiencies, it'll be convenient to go to ART.
+- The general plan is to analyze what we need in ART but then come back to CAFAna for compatibility with the rest of the NOvA analysis chain.
+- What we need from ART for the pion efficiency analysis:
+    - Clear 
+    
+- We went over some key points in Matt's NuMuNeutronAna. It has capabilities we can use for the pion studies too.
+    - On the grid it took Emrah ~4 days to run over the whole RHC MC. Then hadded into a single ttree which allows quick creation of plots.
+    - LoopOverProngCells iterates over the prong's FLSHits and then runs over its ParticleHistory to determine 
+        a) the truth particle that created this FLSHit's (the "daughter"=>now renaming as "parent")
+        b) the ultimate truth level ancestor of that true particle ("the parent"=>now renaming as "granddaddy")
+- Sebastian will study and run the code. Then add new variables to complete the picture that we can get from running the module:
+        -
+        -
+        -
+        -
+        -
+        -
+ 
+- Found a nice cross section anaylsis scheme in CAFAna by Kanika Sachdev on YN-2017, see slides [here](https://nova-docdb.fnal.gov/cgi-bin/private/RetrieveFile?docid=20168&filename=xsec_tutorial.pdf)
+
 ## Weekly ND Meeting April 16th, 2018 and related comments
 Sebastian presented the pion prong reco status (see slides in [docdb](https://nova-docdb.fnal.gov/cgi-bin/private/ShowDocument?docid=37161)) and also reported to the ISU-NOvA meeting with Mayly and Karl.
 - With 3D Prongs we have ~50% prong making efficiency, relatiely flat for PionKE > 0.5 GeV

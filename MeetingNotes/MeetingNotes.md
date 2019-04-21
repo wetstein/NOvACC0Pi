@@ -10,17 +10,27 @@
 - We went over some key points in Matt's NuMuNeutronAna. It has capabilities we can use for the pion studies too.
     - On the grid it took Emrah ~4 days to run over the whole RHC MC. Then hadded into a single ttree which allows quick creation of plots.
     - LoopOverProngCells iterates over the prong's FLSHits and then runs over its ParticleHistory to determine 
-        a) the truth particle that created this FLSHit's (the "daughter"=>now renaming as "parent")
-        b) the ultimate truth level ancestor of that true particle ("the parent"=>now renaming as "granddaddy")
-- Sebastian will study and run the code. Then add new variables to complete the picture that we can get from running the module:
-        -
-        -
-        -
-        -
-        -
-        -
+        a) the truth particle that created this FLSHit's: the "daughter" => now renaming as "parent" (of the FLSHits)
+        b) the ultimate truth level ancestor of that true particle: "the parent" => now renaming as "granddaddy" (cute)
+- Sebastian is studying the code. New variables to be considered: Per prong
+    - info out the ultimate ancestor:
+        - NGrandDad: Number of granddaddies
+        - GrandDadEFrac[NGrandDad]: Energy fraction of the granddaddies (order granddaddies vector by decreasing dominance)
+        - GrandDadPID[NGrandDad]
+        
+    - info about the immediate particle depoiting energy
+        - NParents
+        - ParentEFrac[NParents]
+        - ParentPID[NParents]
+        - ParentEDepProcess[NParent]
+    
+    - info about the processes depositing energy ???
+        - NEDepProcess
+        - EDepProcessEFrac[NEDepProcess]
+        - EDepProcessID[NEDepProcess]
  
 - Found a nice cross section anaylsis scheme in CAFAna by Kanika Sachdev on YN-2017, see slides [here](https://nova-docdb.fnal.gov/cgi-bin/private/RetrieveFile?docid=20168&filename=xsec_tutorial.pdf)
+
 
 ## Weekly ND Meeting April 16th, 2018 and related comments
 Sebastian presented the pion prong reco status (see slides in [docdb](https://nova-docdb.fnal.gov/cgi-bin/private/ShowDocument?docid=37161)) and also reported to the ISU-NOvA meeting with Mayly and Karl.

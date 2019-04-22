@@ -10,7 +10,7 @@
 - We went over some key points in Matt's NuMuNeutronAna. It has capabilities we can use for the pion studies too.
     - On the grid it took Emrah ~4 days to run over the whole RHC MC. Then hadded into a single ttree which allows quick creation of plots.
     - LoopOverProngCells iterates over the prong's FLSHits and then runs over its ParticleHistory to determine 
-        a) the truth particle that created this FLSHit's: the "daughter" => now renaming as "parent" (of the FLSHits)
+        a) the truth particle that created this FLSHit's: the daughter
         b) the ultimate truth level ancestor of that true particle: "the parent" => now renaming as "granddaddy" (cute)
 - Sebastian is studying the code. New variables to be considered: Per prong
     - info out the ultimate ancestor:
@@ -18,16 +18,16 @@
         - GrandDadEFrac[NGrandDad]: Energy fraction of the granddaddies (order granddaddies vector by decreasing dominance)
         - GrandDadPID[NGrandDad]
         
-    - info about the immediate particle depoiting energy
-        - NParents
-        - ParentEFrac[NParents]
-        - ParentPID[NParents]
-        - ParentEDepProcess[NParent]
+    - info about the immediate particle depositing energy
+        - NDaughter
+        - DaughterEFrac[NDaughter]
+        - DaughterPID[NParents]
+        - DaughterCreationProcess[NDaughter]
     
-    - info about the processes depositing energy ???
-        - NEDepProcess
-        - EDepProcessEFrac[NEDepProcess]
-        - EDepProcessID[NEDepProcess]
+    - info about the processes creating daughters ???
+        - NProcess
+        - ProcessEFrac[NProcess]
+        - ProcessID[NProcess]
  
 - Found a nice cross section anaylsis scheme in CAFAna by Kanika Sachdev on YN-2017, see slides [here](https://nova-docdb.fnal.gov/cgi-bin/private/RetrieveFile?docid=20168&filename=xsec_tutorial.pdf)
 

@@ -11,23 +11,24 @@
     - On the grid it took Emrah ~4 days to run over the whole RHC MC. Then hadded into a single ttree which allows quick creation of plots.
     - LoopOverProngCells iterates over the prong's FLSHits and then runs over its ParticleHistory to determine 
         a) the truth particle that created this FLSHit's: the daughter
-        b) the ultimate truth level ancestor of that true particle: "the parent" => now renaming as "granddaddy" (cute)
+        b) the ultimate truth level ancestor of that true particle: "the parent" => now renaming as "granddaddy" (cute) => PrimaryAncestor
 - Sebastian is studying the code. New variables to be considered: Per prong
     - info out the ultimate ancestor:
-        - NGrandDad: Number of granddaddies
-        - GrandDadEFrac[NGrandDad]: Energy fraction of the granddaddies (order granddaddies vector by decreasing dominance)
-        - GrandDadPID[NGrandDad]
+        - NPrimAncestor: Number of Primary ancestors
+        - PrimAncestorPID[NPrimAncestor]
+        - PrimAncestorEFrac[NPrimAncestor]: Energy fraction of the primary ancestors (ordered in a vector by decreasing dominance)
         
     - info about the immediate particle depositing energy
         - NDaughter
-        - DaughterEFrac[NDaughter]
         - DaughterPID[NParents]
         - DaughterCreationProcess[NDaughter]
+        - DaughterEFrac[NDaughter]
     
-    - info about the processes creating daughters ???
+    - info about the processes creating daughters
         - NProcess
-        - ProcessEFrac[NProcess]
         - ProcessID[NProcess]
+        - ProcessEFrac[NProcess]
+        
  
 - Found a nice cross section anaylsis scheme in CAFAna by Kanika Sachdev on YN-2017, see slides [here](https://nova-docdb.fnal.gov/cgi-bin/private/RetrieveFile?docid=20168&filename=xsec_tutorial.pdf)
 

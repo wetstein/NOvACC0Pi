@@ -1,5 +1,12 @@
 # Meeting Notes
 
+## Meeting with Matt and Sebastian, April 24th, 2019
+Matt described the key points of NuMUNeutronAna
+- Two loops over prongs:
+    - In the main body of the module: looks for neutrons anywhere in the true history of a prong
+    - In the LoopOverProngs function: looks for primary neutrons (oldest ancestors)
+- Will rename primary and daughter particles.
+
 ## Meeting with Matt and Sebastian, April 19th, 2019
 - We discussed the ubiquity of the Second Law of Thermodynamics and concluded that we are the swirls in a cosmic café au lait still in preparation. Also, Matt made "I'll put butter on my bagel" and "I'll pour cream on my coffee" oficially new everyday expressions.
 - Discussed the difference between GENIE's pions-escaping-the-nucleus and GEANT4-propagated pions, which are the ones that the backtracker can point to. In order to have clear-cut defined efficiencies, it'll be convenient to go to ART.

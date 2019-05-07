@@ -1,5 +1,22 @@
 # Meeting Notes
 
+## Meeting with Matt and Sebastian, May 6th, 2019
+Framework pending:
+- Learn how energy reconstruction is done in NOvA. E.g., does the total energy per slice include unpronged cells? CHECK (can be relevant e.g. for a short energetic proton)
+- Talk to miranda, ask about the motherPID branch from CAF
+- Ask Emrah how to do grid submission
+
+Notes on NuMuNeutronAnalyzer
+- ProngE is the reco energy, prongEfls is the truth level energy
+- TASK 1: Make booleans for pions, at truth level, analogous to those for neutrons: is there energy backtracing to a pion that is.... direct, indriect, majoritary or any-at-all? This is basically to reconstruct the pion efficiencies from the ART side. We care mostly about cases where the majority of the prong energy traces back to the pion. Other cases are even more in the gray zone.
+- TASK2: Make the loop over cellhits.
+
+Organizational Stuff:
+- Matt's shifts: swing(4pm-12pm), over the collab meeting (June 3rd to 7th) 
+- Sebastinan's shifts: night (12pm-8am), June 23rd-27th
+
+
+
 ## Meeting with Matt and Sebastian, April 24th, 2019
 Matt described the key points of NuMUNeutronAna
 - Two loops over prongs:

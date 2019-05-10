@@ -1,6 +1,13 @@
 # Meeting Notes
 
 ## Meeting with Matt and Sebastian, May 6th, 2019
+- 2D vs 3D prong exclusiveness 
+- Run for RHC (and maybe add neutral pions)
+- Post the neutron efficencies in the neutron channel
+- Possible enhancement: the pdg of daughters making a prong
+- Energy reconstruction: how is the calibration applied.
+
+## Meeting with Matt and Sebastian, May 6th, 2019
 Framework pending:
 - Learn how energy reconstruction is done in NOvA. E.g., does the total energy per slice include unpronged cells? CHECK (can be relevant e.g. for a short energetic proton)
 - Talk to miranda, ask about the motherPID branch from CAF

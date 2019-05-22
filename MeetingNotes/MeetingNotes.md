@@ -1,5 +1,24 @@
 # Meeting Notes
 
+## Meeting with Matt and Sebastian, May 15th, 2019
+Notes fromt the scrum meeting:
+- Fiducial and Containment also depend on the analysis! We can work on them... But shouldn't be that different from numuccinc, as our's is a subset...
+- Work simple topologies up (at least this reduce the phase space)
+- CCinc uses tracks
+- Consider the wrong sign background
+- Rock Muons
+- Template: numuccinc, the step-by-step
+- A cleanest sample: 1track 1prong (and zero 2D objects)
+- Useful var: Ehad. Requiring it very low is roughly equivalent to having no other 2D objects
+
+## Meeting with Matt and Sebastian, May 14th, 2019
+
+Brainstorming on the Big Picture:
+We are looking at the MINERvA paper
+Statistical uncertainties depend on the numebr of bins!!!
+Do a blind analysis: sideband tune the backgrounds until the shapes match: Then go to the signal region and compare MC to Data. Plot a ratio. Report the uncertainty broken by systematics.
+If analysis is statistics dominated, the systematics analysis is not so important.
+
 ## Meeting with Matt and Sebastian, May 6th, 2019
 - 2D vs 3D prong exclusiveness 
 - Run for RHC (and maybe add neutral pions)
@@ -19,7 +38,7 @@ Notes on NuMuNeutronAnalyzer
 - TASK2: Make the loop over cellhits.
 
 Organizational Stuff:
-- Matt's shifts: swing(4pm-12pm), over the collab meeting (June 3rd to 7th) 
+- Matt's shifts: swing(4pm-12pm), over the collab meeting (June 3rd to 6th) 
 - Sebastinan's shifts: night (12pm-8am), June 23rd-27th
 
 

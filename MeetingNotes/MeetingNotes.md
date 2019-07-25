@@ -1,5 +1,11 @@
 # Meeting Notes
 
+## July 25th, restarting to post meeting notes:
+Sebastian presented an updated analysis plan ([docdb-39496](https://nova-docdb.fnal.gov/cgi-bin/private/ShowDocument?docid=39496)), "we aim to study NNSRC evidence on the NODvA ND. We do acknowledge the importance of prior building blocks before we can get there, those being the CC Inclusive, the CC0Pi and a CC0Pi+NProtons. The CC Inclusive and the CC0Pi are already ongoing and we'd be happy to collaborate with them, although mostly for our learning. Our main contribution to the group would come from the study of CC0Pi+NProtons, plus analyzing the compatibility of events in this sample with neutrino interactions on NNSRC pairs". 
+Got generally positive feedback from the group, also cooments about the plan being detailed and ambitious.
+
+Currently working on studying the [MuonID optimization code from CCInc](https://cdcvs.fnal.gov/redmine/projects/novaart/repository/show/trunk/NDAna/numucc_inc/Analysis/MuonIDOptimization). Shih-Kai helped by giving us a very detailed description of the analysis philosophy and some components, see [notes here]
+
 ## Meeting with Matt and Sebastian, May 15th, 2019
 Notes fromt the scrum meeting:
 - Fiducial and Containment also depend on the analysis! We can work on them... But shouldn't be that different from numuccinc, as our's is a subset...
